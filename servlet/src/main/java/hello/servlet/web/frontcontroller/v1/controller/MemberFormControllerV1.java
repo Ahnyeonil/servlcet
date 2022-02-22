@@ -10,7 +10,6 @@ import java.io.IOException;
 
 public class MemberFormControllerV1 implements ControllerV1 {
 
-
     @Override
     public void process(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         // WEB-INF -> 외부에서 호출해도 호출되지 않는다.
